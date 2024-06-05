@@ -50,7 +50,7 @@
             // 
             this.axAcroPDF1.Enabled = true;
             this.axAcroPDF1.Location = new System.Drawing.Point(2, 6);
-            this.axAcroPDF1.Margin = new System.Windows.Forms.Padding(2);
+            this.axAcroPDF1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.axAcroPDF1.Name = "axAcroPDF1";
             this.axAcroPDF1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAcroPDF1.OcxState")));
             this.axAcroPDF1.Size = new System.Drawing.Size(682, 562);
@@ -62,10 +62,9 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.label1.Location = new System.Drawing.Point(699, 90);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(932, 111);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(388, 29);
+            this.label1.Size = new System.Drawing.Size(517, 35);
             this.label1.TabIndex = 9;
             this.label1.Text = "File List";
             // 
@@ -75,10 +74,9 @@
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Malgun Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.label2.Location = new System.Drawing.Point(764, 392);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(1019, 482);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(249, 29);
+            this.label2.Size = new System.Drawing.Size(331, 35);
             this.label2.TabIndex = 10;
             this.label2.Text = "File List";
             // 
@@ -86,13 +84,16 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Enabled = false;
             this.dataGridView1.GridColor = System.Drawing.Color.Chartreuse;
-            this.dataGridView1.Location = new System.Drawing.Point(699, 121);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Location = new System.Drawing.Point(932, 149);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(388, 196);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(517, 241);
             this.dataGridView1.TabIndex = 11;
             // 
             // button3
@@ -100,10 +101,10 @@
             this.button3.BackColor = System.Drawing.Color.OliveDrab;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(764, 330);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(1019, 406);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 44);
+            this.button3.Size = new System.Drawing.Size(123, 54);
             this.button3.TabIndex = 12;
             this.button3.Text = "Next";
             this.button3.UseVisualStyleBackColor = false;
@@ -114,10 +115,10 @@
             this.button5.BackColor = System.Drawing.Color.DodgerBlue;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(921, 330);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Location = new System.Drawing.Point(1228, 406);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 44);
+            this.button5.Size = new System.Drawing.Size(123, 54);
             this.button5.TabIndex = 13;
             this.button5.Text = "Search";
             this.button5.UseVisualStyleBackColor = false;
@@ -125,20 +126,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(789, 51);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(1052, 63);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(279, 20);
+            this.textBox1.Size = new System.Drawing.Size(371, 22);
             this.textBox1.TabIndex = 16;
             // 
             // button2
             // 
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(761, 51);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(1015, 63);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(28, 22);
+            this.button2.Size = new System.Drawing.Size(37, 27);
             this.button2.TabIndex = 17;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -148,10 +149,10 @@
             this.Radbtn_Video.AutoSize = true;
             this.Radbtn_Video.Checked = true;
             this.Radbtn_Video.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Radbtn_Video.Location = new System.Drawing.Point(789, 8);
-            this.Radbtn_Video.Margin = new System.Windows.Forms.Padding(2);
+            this.Radbtn_Video.Location = new System.Drawing.Point(1052, 10);
+            this.Radbtn_Video.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Radbtn_Video.Name = "Radbtn_Video";
-            this.Radbtn_Video.Size = new System.Drawing.Size(67, 21);
+            this.Radbtn_Video.Size = new System.Drawing.Size(77, 24);
             this.Radbtn_Video.TabIndex = 18;
             this.Radbtn_Video.TabStop = true;
             this.Radbtn_Video.Text = "Video";
@@ -162,10 +163,10 @@
             // 
             this.Radbtn_Docs.AutoSize = true;
             this.Radbtn_Docs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Radbtn_Docs.Location = new System.Drawing.Point(924, 8);
-            this.Radbtn_Docs.Margin = new System.Windows.Forms.Padding(2);
+            this.Radbtn_Docs.Location = new System.Drawing.Point(1232, 10);
+            this.Radbtn_Docs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Radbtn_Docs.Name = "Radbtn_Docs";
-            this.Radbtn_Docs.Size = new System.Drawing.Size(62, 21);
+            this.Radbtn_Docs.Size = new System.Drawing.Size(74, 24);
             this.Radbtn_Docs.TabIndex = 19;
             this.Radbtn_Docs.Text = "Docs";
             this.Radbtn_Docs.UseVisualStyleBackColor = true;
@@ -174,17 +175,19 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(764, 423);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(1019, 521);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBox1.Name = "listBox1";
             this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.listBox1.Size = new System.Drawing.Size(249, 121);
+            this.listBox1.Size = new System.Drawing.Size(331, 148);
             this.listBox1.TabIndex = 20;
             // 
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(2, 6);
+            this.axWindowsMediaPlayer1.Margin = new System.Windows.Forms.Padding(4);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(682, 562);
@@ -192,10 +195,10 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1094, 564);
+            this.ClientSize = new System.Drawing.Size(1459, 694);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.Radbtn_Docs);
@@ -209,7 +212,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.axAcroPDF1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.Text = "RenameApp";
             ((System.ComponentModel.ISupportInitialize)(this.axAcroPDF1)).EndInit();
